@@ -436,8 +436,8 @@ const PRICES = {
   eclipse:   { de:"", por:"", parcela:"", obs:"" }
 };
 
-/* WhatsApp da loja para o formulário (troque pelo número real, formato 55DDDNUMERO) */
-const WHATSAPP = "5542900000000";
+/* WhatsApp da loja (Mont Kóya — atendimento Agroleite) */
+const WHATSAPP = "5542998650204";
 </script>
 
 <script>
@@ -486,7 +486,7 @@ function enviar(e){
   const fone=document.getElementById('f-fone').value;
   const cid=document.getElementById('f-cidade').value;
   const veic=document.getElementById('f-veic').value;
-  const msg=`Olá! Quero as condições exclusivas da Agroleite 2026.%0A%0ANome: ${nome}%0AWhatsApp: ${fone}%0ACidade: ${cid}%0AVeículo: ${veic}`;
+  const msg=encodeURIComponent(`Olá! Quero as condições exclusivas da Agroleite 2026.\n\nNome: ${nome}\nWhatsApp: ${fone}\nCidade: ${cid}\nVeículo: ${veic}`);
   window.open(`https://wa.me/${WHATSAPP}?text=${msg}`,'_blank');
   return false;
 }
