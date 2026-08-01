@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://agroleite.montkoya.com.br/sitemap.xml
