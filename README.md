@@ -3,8 +3,8 @@
 Página de condições exclusivas da Mont Kóya (Mitsubishi — Ponta Grossa/PR) para a Agroleite 2026 (03–07/08, Castro/PR).
 
 ## Páginas
-- `index.html` — modelo **Navy** (link principal)
-- `verde-oliva.html` — modelo **Verde-oliva terroso**
+- `index.html` — modelo **Verde-oliva terroso** (OFICIAL)
+- `navy.html` — modelo Navy (alternativo)
 - `simulador.html` — simulador mobile (iPhone com troca de paleta)
 
 ## Como editar os preços
